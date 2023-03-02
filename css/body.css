@@ -1,0 +1,103 @@
+.main_body {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.recent_search_container {
+    display: grid;
+    gap: 20px;
+}
+.location_details_flexed {
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.ctx {
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.ctx_top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.ctx_bottom {
+    display: flex;
+    justify-content: center;
+}
+.ctx_top img {
+    width: 117.35px;
+    height: 24px;
+}
+.ctx_top h2 {
+    font-size: 24px;
+    color:#1262AE;
+}
+.ctx_bottom p {
+    font-size: 20px;
+}
+.prepare_for_your_next_trip {
+    gap: 50px;
+    padding-top: 50px;
+}
+.trip_icon_wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-content: center;
+    height: 300px;
+    justify-content: space-around;
+}
+.trip_icon {
+   display: grid;
+   place-items: center;
+   gap: 8px;
+}
+.Hotels img,
+.Attractions img,
+.Cutlery img,
+.Train img,
+.Taxi img,
+.Movies img{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.Hotels img {
+    background-color: #F9668D;
+}
+.Attractions img {
+    background-color: #FF9B53;
+}
+.Cutlery img {
+    background-color: #36DA76;
+}
+.Train img {
+    background-color: #FDBF00;
+}
+.Taxi img {
+    background-color: #4DABFF;
+}
+.Movies img {
+    background-color: #79CA00;
+}
+.plan_next_trip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.destinations {
+    display: flex;
+    flex-wrap: nowrap;
+}

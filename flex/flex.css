@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    background-color:red;
+    height: 60vh;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexed {
+    background-color: blue;
+    height: 100%;
+    width: 90%;
+}
+.flex1 {
+    flex-basis: 200px;
+}
+input {
+    accent-color: yellow;
+}

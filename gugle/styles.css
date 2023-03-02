@@ -1,0 +1,92 @@
+.google {
+    font-size: 100px;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.blue {
+    color: blue;
+    padding-left: 0px;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+
+}
+
+.green {
+    color: green;
+}
+
+.container {
+    width: 50px;
+    margin-top: 10px;
+    padding-left: 420px;
+    background-color: white;
+    color: gray;
+
+
+}
+
+.click {
+    margin-top: 10px;
+    margin-left: 555px;
+    place-items: center;
+
+}
+
+.text {
+    font-size: large;
+    text-align: left;
+    border-radius: 20px;
+    margin: auto;
+    width: 500px;
+    height: 30px;
+    border-width: 0.5px;
+    color: black;
+    outline: none;
+    background-color: white;
+}
+
+.button_1 {
+    margin-top: 20px;
+    place-items: center;
+    display: row;
+    background-color: none;
+    border-radius: 5px;
+}
+
+.offering {
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: 20px;
+}
+
+.top {
+    position: absolute;
+    left: 1200px;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.next {
+    padding-left: 10px;
+}
+
+.Igbo {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Yoruba {
+    padding-right: 10px;
+}
