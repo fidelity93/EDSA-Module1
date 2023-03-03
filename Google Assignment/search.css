@@ -1,32 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: #171717;
     color: white;
 }
-.head_container{
+
+.head_container {
     width: 100%;
     height: 80px;
     justify-content: center;
     background-color: #171717;
     /* padding: 20px; */
 }
-.head_cont{
+
+.head_cont {
     width: 90%;
     height: 90%;
     justify-content: space-between;
     align-items: center;
     background-color: #171717;
 }
+
 .menu {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 img {
     width: 50px;
     height: 50px;
 }
+
 .head_container,
 .head_cont,
 .navigate,
@@ -36,13 +41,16 @@ img {
     align-items: center;
     gap: 20px;
 }
+
 .navig a {
     font-size: 18px;
     color: #ffffff;
 }
+
 a {
     text-decoration: none;
 }
+
 .avatar {
     background-color: #ffffff;
     width: 50px;
@@ -54,13 +62,16 @@ a {
     border-width: 5px;
     border-style: solid;
 }
+
 body {
     overflow-x: hidden;
 }
+
 .main {
     padding-top: 100px;
     gap: 50px;
 }
+
 .main_container {
     width: 100%;
     height: 90px;
@@ -68,10 +79,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .trial {
     width: 300px;
     height: 80px;
 }
+
 .main_search {
     width: 100%;
     height: 50px;
@@ -80,8 +93,9 @@ body {
     padding-top: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
+
 .search {
     width: 600px;
     height: 80px;
@@ -91,12 +105,14 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 input {
     width: 50%;
     height: 80px;
     font-size: 18px;
     border: none;
 }
+
 .offer {
     width: 100%;
     height: auto;
@@ -107,6 +123,7 @@ input {
     padding-top: 50px;
     text-align: center;
 }
+
 .language {
     width: 100%;
     height: auto;
@@ -116,6 +133,7 @@ input {
     gap: 10px;
     padding-top: 20px;
 }
+
 .trending {
     display: flex;
     flex-direction: column;
@@ -129,6 +147,7 @@ input {
     border-bottom: white;
 
 }
+
 /* .trending div {
     gap: 50px;
     padding: 50px;
@@ -137,19 +156,21 @@ input {
     width: 20px;
     height: 20px;
 }
+
 .ches {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
     gap: 50px;
     padding: 50px;
 }
+
 .election,
 .united,
-.chelsea, .oluomo {
+.chelsea,
+.oluomo {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -158,17 +179,39 @@ input {
     padding: 50px;
     border-bottom: solid 1px gray;
 }
-.paul, .sability, .napoli {
+
+.paul,
+.sability,
+.napoli {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 50px;
+    gap: 50px;
+    border-bottom: solid 1px gray;
+}
+
+.country {
+    background-color: #171717;
+    border-bottom: solid 1px gray;
+    width: 100%;
+    height: 50px;
+}
+.empty {
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px gray;
+
+}
+.poli {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* .ene {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 50px;
-    gap: 50px;
-}
-.country {
-    background-color: #171717;
-    border-bottom: solid 1px #202124;
-    width: 100%;
-    height: auto;
-
-}
+    padding-left: 150px;
+    padding-top: 0;
+} */
