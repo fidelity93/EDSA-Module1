@@ -49,6 +49,7 @@ img {
 
 a {
     text-decoration: none;
+    color: #89b3f6;
 }
 
 .avatar {
@@ -58,13 +59,14 @@ a {
     border-radius: 50px;
     /* border-color: white; */
     border-width: 100px;
-    border-image: linear-gradient(right, red, blue, yellow, green) 10;
+    border-image: linear-gradient(to top, #e92d18, #3174f1, #f6ad01, #24913f) 10;
     border-width: 5px;
     border-style: solid;
 }
 
 body {
     overflow-x: hidden;
+    background-color: #202124;
 }
 
 .main {
@@ -133,25 +135,6 @@ input {
     gap: 10px;
     padding-top: 20px;
 }
-
-.trending {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    gap: 20px;
-    padding-top: 20px;
-    text-align: left;
-    border-bottom: white;
-
-}
-
-/* .trending div {
-    gap: 50px;
-    padding: 50px;
-} */
 .dots {
     width: 20px;
     height: 20px;
@@ -195,11 +178,14 @@ input {
     background-color: #171717;
     border-bottom: solid 1px gray;
     width: 100%;
-    height: 50px;
+    height: 20px;
+    padding-left: 50px;
+    padding-top: 400px;
+    align-items: baseline;
 }
 .empty {
     width: 100%;
-    height: auto;
+    height: 50px;
     border-bottom: solid 1px gray;
 
 }
@@ -208,10 +194,3 @@ input {
     align-items: center;
     gap: 20px;
 }
-/* .ene {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 150px;
-    padding-top: 0;
-} */
